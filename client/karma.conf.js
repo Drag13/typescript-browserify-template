@@ -1,6 +1,3 @@
-// Karma configuration
-// Generated on Fri Jul 14 2017 16:12:49 GMT+0300 (FLE Daylight Time)
-
 module.exports = function (config) {
   config.set({
 
@@ -15,7 +12,6 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'ui/**/*.ts',
       'tests/**/*.ts'
     ],
 
@@ -30,6 +26,9 @@ module.exports = function (config) {
       "**/*.ts": ["karma-typescript"]
     },
 
+    karmaTypescriptConfig:{
+      tsconfig: "./tsconfig.json",
+    },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'

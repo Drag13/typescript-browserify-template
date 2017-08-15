@@ -7,17 +7,17 @@ var gulp = require("gulp"),
 
 var opt = {
     src: {
-        ts: ['ui/**/*.ts'],
+        ts: ['app/**/*.ts'],
         html: ['index.html'],
     },
     dest: {
-        ts: 'build/js',
-        html: 'build/html',
+        ts: '../server/build/client/js',
+        html: '../server/build/client/html',
     },
     browserify: {
         basedir: '.',
         debug: true,
-        entries: 'ui/app.ts',
+        entries: 'app/app.ts',
         cache: {},
         packageCache: {}
     },
