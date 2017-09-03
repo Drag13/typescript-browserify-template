@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "node ./node_modules/gulp/bin/gulp buildAll && ./node node_modules/gulp/bin/gulp run",
         "build": "node ./node_modules/gulp/bin/gulp buildAll",
-        "test": "(node ./node_modules/typescript/bin/tsc -p ./tests) && (node ./node_modules/mocha/bin/mocha ./tests/**/*.spec.js)"
+        "test": "(node ./node_modules/typescript/bin/tsc -p ./tests) && (node ./node_modules/jasmine-node/bin/jasmine-node --test-dir tests)"
     },
     "author": "drag13",
     "license": "MIT",
@@ -38,10 +38,7 @@
         "nodemon": "^1.11.0",
         "typescript": "^2.2.1",
 
-        "mocha": "^3.5.0",
-        "gulp-mocha": "^4.3.1",
-
-        "@types/gulp-mocha": "^0.0.30",
-        "@types/mocha": "^2.2.41"
+        "jasmine-node": "1.14.5",
+        "@types/jasmine":"2.5.53"
     }
 }
