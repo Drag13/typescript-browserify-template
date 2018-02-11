@@ -2,7 +2,7 @@ import { IServerTimeProvider } from '.';
 
 export class Timer {
     private readonly _interval = 1000;
-    private _timerId: number;
+    private _timerId: number | undefined;
 
     constructor(private _htmlNode: HTMLElement, private _serverTimeProvider: IServerTimeProvider) {
     }

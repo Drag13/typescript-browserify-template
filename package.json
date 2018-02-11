@@ -1,11 +1,11 @@
 {
     "name": "general_template",
     "author": "drag13",
-
     "scripts": {
         "client": "cd client && npm run dev",
         "server": "cd server && npm run dev",
-        "install":"cd server && npm install && cd ../client && npm install",
-        "test": "cd server && npm test && cd ../client && npm test"
+        "install": "cd server && npm install && cd ../client && npm install",
+        "test": "cd server && npm test && cd ../client && npm test",
+        "dev": "(cd client && npm run dev) && (cd ../server && npm run dev)"
     }
 }
