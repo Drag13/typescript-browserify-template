@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "start": "node ./node_modules/gulp/bin/gulp buildAll && node ./node_modules/gulp/bin/gulp run",
+        "start": "(node ./node_modules/gulp/bin/gulp buildAll) && (start node ./node_modules/gulp/bin/gulp run)",
         "build": "node ./node_modules/gulp/bin/gulp buildAll",
         "test": "(node ./node_modules/typescript/bin/tsc -p ./tests) && (node ./node_modules/jasmine-node/bin/jasmine-node --test-dir tests)"
     },

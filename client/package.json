@@ -4,7 +4,7 @@
   "description": "very small template with TypeScript, Browserify and Karma",
   "scripts": {
     "test": "node node_modules/karma/bin/karma start",
-    "start": "node node_modules/gulp/bin/gulp",
+    "start": "start node node_modules/gulp/bin/gulp",
     "build": "node node_modules/gulp/bin/gulp build"
   },
   "author": "drag13",
