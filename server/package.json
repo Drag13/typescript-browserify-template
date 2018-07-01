@@ -3,13 +3,12 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "dev": "node ./node_modules/gulp/bin/gulp buildAll && node ./node_modules/gulp/bin/gulp run",
+        "start": "node ./node_modules/gulp/bin/gulp buildAll && node ./node_modules/gulp/bin/gulp run",
         "build": "node ./node_modules/gulp/bin/gulp buildAll",
         "test": "(node ./node_modules/typescript/bin/tsc -p ./tests) && (node ./node_modules/jasmine-node/bin/jasmine-node --test-dir tests)"
     },
     "author": "drag13",
     "license": "MIT",
-
     "dependencies": {
         "body-parser": "~1.18.2",
         "debug": "~3.1.0",
@@ -18,7 +17,6 @@
         "morgan": "~1.9.0",
         "serve-favicon": "~2.4.5"
     },
-
     "devDependencies": {
         "@types/body-parser": "~1.16.8",
         "@types/debug": "~0.0.30",
@@ -37,8 +35,7 @@
         "marked": "~0.3.12",
         "nodemon": "~1.14.12",
         "typescript": "~2.7.1",
-
         "jasmine-node": "~1.14.5",
-        "@types/jasmine":"~2.8.6"
+        "@types/jasmine": "~2.8.6"
     }
 }
