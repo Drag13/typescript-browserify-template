@@ -1,6 +1,7 @@
 {
     "name": "general_template",
     "author": "drag13",
+    "version": "0.0.1",
     "scripts": {
         "client": "cd client && npm start",
         "server": "cd server && npm start",

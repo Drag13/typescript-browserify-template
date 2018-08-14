@@ -1,6 +1,6 @@
 {
   "name": "typescript-browserify-template",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "very small template with TypeScript, Browserify and Karma",
   "scripts": {
     "test": "node node_modules/karma/bin/karma start",
