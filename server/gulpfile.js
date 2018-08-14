@@ -8,8 +8,8 @@ var tsb = require('gulp-tsb');
 var opt = {
     src: {
         ts: ['./app/**/*.ts'],
-        html: ['./views/*.jade'],
-        all: ['./build/**/*.js', './build/views/*.jade']
+        html: ['./views/*.pug'],
+        all: ['./build/**/*.js', './build/views/*.pug']
     },
     dest: {
         js: './build/',
