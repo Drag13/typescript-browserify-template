@@ -4,11 +4,11 @@
     "description": "",
     "scripts": {
         "start": "npm-run-all build run",
-        "build": "./node_modules/.bin/gulp buildAll",
-        "run": "./node_modules/.bin/gulp run",
-        "test:run":"./node_modules/.bin/jasmine-node tests",
-        "test:build" :"./node_modules/.bin/tsc -p ./tests",
-        "test": "npm-run-all test:build test:run"
+        "build": "gulp buildAll",
+        "run": "gulp run",
+        "test:run": "jasmine tests/*",
+        "test:build": "./node_modules/.bin/tsc -p ./tests",
+        "test": "npm-run-all test:run"
     },
     "author": "drag13",
     "license": "MIT",
@@ -36,7 +36,7 @@
         "gulp": "3.9.1",
         "gulp-nodemon": "2.4.2",
         "gulp-tsb": "2.0.5",
-        "jasmine-node": "^2.0.1",
+        "jasmine": "3.3.1",
         "marked": "0.6.0",
         "nodemon": "1.18.9",
         "typescript": "3.2.4",
