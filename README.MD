@@ -8,6 +8,10 @@ It includes:
 * Dummy API to start with
 * Karma and Jasmine for testing purposes
 
+## Prerequisite
+
+Please, make sure you are using **npm 5.7.0 or higher**. If no, you need to change *npm ci* command to *npm install*
+
 ## Install
 
 ```cmd
@@ -21,3 +25,5 @@ npm run install:all
 ```cmd
 npm start
 ```
+
+That's it! Your client and server is running now. Give it a try!
