@@ -12,8 +12,8 @@ It includes:
 
 ```cmd
 git clone https://github.com/Drag13/typescript-browserify-template
-npm i
-npm install:all
+npm ci
+npm run install:all
 ```
 
 ## Start
